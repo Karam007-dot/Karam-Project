@@ -7,7 +7,7 @@
   color: white;
   text-align: center;
   position: relative;
-  overflow-y: auto; /* allows vertical scrolling */
+  overflow-y: auto; 
   background: #0a0000;
   animation: smoothGlow 15s ease-in-out infinite;
 
@@ -39,9 +39,9 @@
 
     .products-container {
     display: grid;
-    grid-template-columns: repeat(3, auto); /* 3 cards per row */
-    justify-content: center; /* center the whole grid horizontally */
-    gap: 20px; /* spacing between cards */
+    grid-template-columns: repeat(3, auto); 
+    justify-content: center; 
+    gap: 20px; 
     margin-top: 30px;
 }
 
@@ -89,7 +89,7 @@
       font-size: 16px;
       padding-bottom: 40px;
     }
-    /* Sidebar */
+   
 .sidebar {
   position: fixed;
   top: 0;
@@ -138,9 +138,9 @@
   color: #000;
 }
 
-/* Main content */
+
 .content {
-  margin-left: 240px; /* leave space for sidebar */
+  margin-left: 240px; 
   padding: 40px;
   text-align: center;
 }
